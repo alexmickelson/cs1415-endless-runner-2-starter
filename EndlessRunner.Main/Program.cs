@@ -43,3 +43,5 @@ var controlThread = new Thread(() =>
 
 displayThread.Start();
 controlThread.Start();
+displayThread.Join();
+controlThread.Join();
