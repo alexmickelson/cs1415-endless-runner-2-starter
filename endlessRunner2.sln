@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessRunner", "EndlessRunner\EndlessRunner.csproj", "{C633C8E2-7CC0-475B-8B58-AC6A993455DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessRunner.Main", "EndlessRunner.Main\EndlessRunner.Main.csproj", "{3188C1A9-DCAF-487E-9E59-4932CEBC69CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessRunner.Test", "EndlessRunner.Test\EndlessRunner.Test.csproj", "{2D66CDBB-9D3E-4DCB-BE28-B0ED0B9B178F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C633C8E2-7CC0-475B-8B58-AC6A993455DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C633C8E2-7CC0-475B-8B58-AC6A993455DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C633C8E2-7CC0-475B-8B58-AC6A993455DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C633C8E2-7CC0-475B-8B58-AC6A993455DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3188C1A9-DCAF-487E-9E59-4932CEBC69CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3188C1A9-DCAF-487E-9E59-4932CEBC69CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3188C1A9-DCAF-487E-9E59-4932CEBC69CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3188C1A9-DCAF-487E-9E59-4932CEBC69CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D66CDBB-9D3E-4DCB-BE28-B0ED0B9B178F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D66CDBB-9D3E-4DCB-BE28-B0ED0B9B178F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D66CDBB-9D3E-4DCB-BE28-B0ED0B9B178F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D66CDBB-9D3E-4DCB-BE28-B0ED0B9B178F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
