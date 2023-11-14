@@ -1,4 +1,9 @@
-﻿var map = new Map();
+﻿using System.Text;
+
+// needed to make emojis work on the console
+Console.OutputEncoding = Encoding.UTF8;
+
+var map = new Map();
 var displayThread = new Thread(() =>
 {
   while(true)
