@@ -48,7 +48,7 @@ public class Map
     int indexOfCharacter = getIndexOfCharacterOnLastRow(lastRow);
 
     secondToLastRow[indexOfCharacter] = Icon.Character;
-    map = map.Slice(0, map.Count - 1).Prepend(rowToAdd).ToList();
+    map = map.SkipLast(1).Prepend(rowToAdd).ToList();
   }
 
   private int getIndexOfCharacterOnLastRow(List<Icon> lastRow)
